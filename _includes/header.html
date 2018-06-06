@@ -3,7 +3,7 @@
     {% for image in site.static_files %}
       {% if image.name contains 'icon.png' %}
         <a href="/" class="blog-icon">
-          <img src="{{ image.path }}" alt="{{ image.title }}">
+          <img src="{{ image.path | relative_url }}" alt="{{ image.title }}">
         </a>
       {% endif %}
     {% endfor %}
