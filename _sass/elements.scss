@@ -134,6 +134,7 @@ code {
   line-height: 1.4em;
   padding: 2px 5px;
 }
+
 /* BLOCKQUOTES */
 /*-------------*/
 
@@ -289,4 +290,11 @@ textarea:focus {
 
 iframe {
   max-width: 100%;
+}
+
+/* OTHER */
+/*-------*/
+hr {
+  border-top: 1px solid $color-grey-70;
+  margin: 50px 0;
 }
