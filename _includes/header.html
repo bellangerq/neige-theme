@@ -1,0 +1,18 @@
+<header>
+  <nav>
+    {% for image in site.static_files %}
+      {% if image.name contains 'icon.png' %}
+        <a href="/" class="blog-icon">
+          <img src="{{ image.path }}" alt="{{ image.title }}">
+        </a>
+      {% endif %}
+    {% endfor %}
+    <ul>
+      {% for item in site.data.header.navigation %}
+        <li class="item">
+          <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

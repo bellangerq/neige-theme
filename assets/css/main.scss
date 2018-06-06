@@ -1,0 +1,32 @@
+---
+# Import scss files
+---
+
+@import 'normalize';
+@import 'vars';
+@import 'elements';
+@import 'header';
+@import 'copyright';
+@import 'index';
+@import 'layout';
+@import 'posts';
+// @import 'pagination';
+// @import 'author';
+// @import 'info';
+// @import 'error';
+
+body {
+  background: $color-white;
+  color: $color-grey;
+  font-family: $font-sans-serif;
+}
+
+::-moz-selection {
+  background: $color-grey-30;
+  color: $color-white;
+}
+
+::selection {
+  background: $color-grey-30;
+  color: $color-white;
+}
