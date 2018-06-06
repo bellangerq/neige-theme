@@ -10,10 +10,8 @@
 @import 'index';
 @import 'layout';
 @import 'posts';
-// @import 'pagination';
-// @import 'author';
-// @import 'info';
-// @import 'error';
+@import 'info';
+@import 'share';
 
 body {
   background: $color-white;

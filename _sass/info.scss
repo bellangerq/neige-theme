@@ -1,0 +1,29 @@
+.info {
+  color: $color-grey-70;
+  font-family: $font-sans-serif;
+  font-size: 14px;
+
+  .icon {
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 5px;
+    width: 20px;
+  }
+
+  .info-date,
+  .info-author {
+    @media(min-width: 768px) {
+      display: inline-block;
+    }
+  }
+
+  .info-author {
+    @media(min-width: 768px) {
+      margin: 0 0 0 20px;
+    }
+
+    a {
+      border-bottom: 0;
+    }
+  }
+}

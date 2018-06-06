@@ -1,15 +1,22 @@
 ---
-title: Hello world!
-layout: default
+title:
+layout: page
 ---
 
-<h1>Hello world</h1>
+<h1>{{ site.data.site.title }}</h1>
+<p>{{ site.data.site.description }}</p>
 
 <div class="posts">
   {% for post in site.posts %}
     <article>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+
+      {% assign date = post.date %}
+      {% assign author = site.data.authors[post.author] %}
+
+      {% include info.html date = date author = author %}
+
+      <p>{{ post.description }}</p>
     </article>
   {% endfor %}
 </div>

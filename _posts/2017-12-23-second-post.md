@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "My second post!"
-date:   2015-11-17 16:16:01 -0600
+date: 2015-11-17
+description: "When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause."
+author: bilbo
 ---
 
 Ghost uses a language called **Markdown** to format text.

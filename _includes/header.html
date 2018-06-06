@@ -1,16 +1,18 @@
 <header>
   <nav>
-    {% for image in site.static_files %}
-      {% if image.name contains 'icon.png' %}
-        <a href="/" class="blog-icon">
-          <img src="{{ image.path | relative_url }}" alt="{{ image.title }}">
-        </a>
-      {% endif %}
-    {% endfor %}
+    <a href="{{ '/' | relative_url }} " title="{{ site.data.site.title }}" class="blog-icon">
+      <img src="{{ site.data.baseUrl }}/assets/img/icon.png" alt="Logo of {{ site.data.site.title }}">
+    </a>
     <ul>
-      {% for item in site.data.header.navigation %}
+      {% for link in site.data.navigation %}
         <li class="item">
-          <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+          <a
+            href="{{ link.url | relative_url }}"
+            title="{{ link.title }}"
+            target="{% if link.external %}_blank{% endif%}"
+          >
+            {{ link.text }}
+          </a>
         </li>
       {% endfor %}
     </ul>

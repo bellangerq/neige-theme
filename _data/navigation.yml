@@ -1,0 +1,12 @@
+- text: 'About'
+  url: '/about'
+  title: 'More about me'
+  external: false
+- text: 'Contact'
+  url: '/contact'
+  title: 'Contact me'
+  external: false
+- text: 'Twitter'
+  url: 'https://twitter.com'
+  title: 'Follow me on Twitter'
+  external: true
