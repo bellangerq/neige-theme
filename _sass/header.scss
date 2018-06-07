@@ -1,14 +1,17 @@
 header {
-  background: $color-white;
+  // Horizontal scrolling shadow: https://codepen.io/mrowa44/pen/xRpMYm
+  background:
+    linear-gradient(to right, $color-white 10%, rgba($color-white, 0)),
+    linear-gradient(to right, rgba($color-white, 0), $color-white 90%) 0 100%,
+    linear-gradient(to right, $color-grey, rgba($color-white, 0) 10%),
+    linear-gradient(to left, $color-grey, rgba($color-white, 0) 10%);
+  background-attachment: local, local, scroll, scroll;
   border-bottom: 1px solid $color-grey-70;
-  list-style-type: none;
   overflow: auto;
   padding: 15px 0;
   position: fixed;
   top: 0;
-  white-space: nowrap;
   width: 100%;
-  z-index: 1;
 
   .blog-icon {
     border-bottom: 0;
@@ -30,8 +33,8 @@ header {
     display: flex;
 
     ul {
-      display: inline-block;
-      list-style: none;
+      display: flex;
+      list-style-type: none;
       margin: 0;
       padding: 0;
 
