@@ -4,8 +4,8 @@ title:
 description:
 ---
 
-<h1>{{ site.data.site.title }}</h1>
-<p>{{ site.data.site.description }}</p>
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -13,7 +13,7 @@ description:
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 
       {% assign date = post.date %}
-      {% assign author = site.data.authors[post.author] %}
+      {% assign author = site.authors | where: "id", post.author | first %}
 
       {% include info.html date = date author = author %}
 

@@ -1,20 +1,22 @@
 <header>
   <nav role="navigation">
-    <a href="{{ '/' | relative_url }} " title="{{ site.data.site.title }}" class="blog-icon">
-      <img src="{{ '/assets/img/icon.png' | relative_url }}" alt="Logo of {{ site.data.site.title }}">
+    <a href="{{ '/' | relative_url }} " title="{{ site.title }}" class="blog-icon">
+      <img src="{{ '/assets/img/icon.png' | relative_url }}" alt="Logo of {{ site.title }}">
     </a>
+    {% if site.navigation %}
     <ul>
-      {% for link in site.data.navigation %}
+      {% for link in site.navigation %}
         <li class="item">
           <a
             href="{{ link.url | relative_url }}"
             title="{{ link.title }}"
             target="{% if link.external %}_blank{% endif %}"
           >
-            {{ link.text }}
+            {{ link.name }}
           </a>
         </li>
       {% endfor %}
     </ul>
+    {% endif %}
   </nav>
 </header>
