@@ -8,7 +8,7 @@ description:
 <p>{{ site.data.site.description }}</p>
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 
@@ -21,3 +21,6 @@ description:
     </article>
   {% endfor %}
 </div>
+
+
+{% include pagination.html %}

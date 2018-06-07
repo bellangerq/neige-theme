@@ -1,0 +1,14 @@
+.pagination {
+  color: $color-grey-30;
+  font-size: 14px;
+  padding: 25px;
+  text-align: center;
+
+  .current {
+    margin: 0 20px;
+  }
+
+  @media(min-width: 768px) {
+    padding: 50px;
+  }
+}

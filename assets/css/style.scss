@@ -6,12 +6,13 @@
 @import 'vars';
 @import 'elements';
 @import 'header';
-@import 'copyright';
+@import 'footer';
 @import 'index';
 @import 'layout';
 @import 'posts';
 @import 'info';
 @import 'share';
+@import 'pagination';
 
 body {
   background: $color-white;
