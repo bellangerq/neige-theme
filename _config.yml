@@ -1,6 +1,4 @@
-# # # # # # # # #
-# NEIGE CONFIG. #
-# # # # # # # # #
+# NEIGE CONFIG.
 
 # 1. Jekyll config
 # 2. Site info
@@ -15,6 +13,7 @@ paginate: 6
 paginate_path: "/page:num/"
 
 # 2. Site info
+lang: 'en-US'
 title: 'Neige theme'
 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 baseUrl: 'https://neige-theme.com'
