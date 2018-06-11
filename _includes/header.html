@@ -11,6 +11,7 @@
             href="{{ link.url | relative_url }}"
             title="{{ link.title }}"
             target="{% if link.external %}_blank{% endif %}"
+            rel="{% if link.external %}noopener{% endif %}"
           >
             {{ link.name }}
           </a>

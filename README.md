@@ -7,11 +7,11 @@
 - [x] Add scrolling header indicator
 - [x] Implement pagination (x posts by page, x being a data variable)
 - [x] Put all data in `_config.yml` file
-- [ ] Set branch master as default branch for GitHub pages
+- [x] Set branch master as default branch for GitHub pages
 - [ ] Add syntax highlighting
 - [ ] Add Google analytics config
 - [x] Add lang attribute to HTML and in config
-- [ ] Add `rel=noopener` to external links
+- [x] Add `rel=noopener` to external links
 
 ## Documentation
 
