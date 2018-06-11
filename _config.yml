@@ -13,7 +13,7 @@ plugins:
 paginate: 6
 paginate_path: "/page:num/"
 lang: en-US
-description: "A minimalist and lightweight Jekyll blog theme"
+description: A minimalist and lightweight Jekyll blog theme
 baseUrl: https://neige-theme.com
 twitter: "@bellanger_q"
 navigation:
@@ -22,16 +22,16 @@ navigation:
   title: About Neige
   external: false
 - name: Contact
-  url: "mailto:hello@quentin-bellanger.com"
+  url: mailto:hello@quentin-bellanger.com
   title: Email me
   external: false
 - name: Twitter
-  url: "https://twitter.com"
-  title: "Follow updates"
+  url: https://twitter.com
+  title: Follow updates
   external: true
 - name: GitHub
-  url: "https://github.com/bellangerq/neige-theme"
-  title: "View source"
+  url: https://github.com/bellangerq/neige-theme
+  title: View source
   external: true
 authors:
 - id: bilbo
