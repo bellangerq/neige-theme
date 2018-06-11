@@ -1,0 +1,42 @@
+---
+title: Neige theme
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+plugins:
+- jekyll-paginate
+paginate: 6
+paginate_path: "/page:num/"
+lang: en-US
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+baseUrl: https://neige-theme.com
+twitter: "@bellanger_q"
+navigation:
+- name: About
+  url: "/about"
+  title: More about me
+  external: false
+- name: Contact
+  url: "/contact"
+  title: Contact me
+  external: false
+- name: Twitter
+  url: https://twitter.com
+  title: Follow me on Twitter
+  external: true
+authors:
+- id: bilbo
+  name: Bilbo Baggins
+  twitter: "@bilbo"
+- id: jack
+  name: Jack Sparrow
+  twitter: "@jack"
+footer: <a href="https://neige-theme.com" target="_blank">Neige</a> theme by <a href="https://quentin-bellanger.com"
+  target="_blank">Quentin</a> | Published with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>

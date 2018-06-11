@@ -1,0 +1,11 @@
+.posts {
+  border-top: 1px solid $color-grey-70;
+
+  .posts-item {
+    padding: 25px 0;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

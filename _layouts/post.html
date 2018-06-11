@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<main>
+  <h1>{{ page.title }}</h1>
+
+  {% assign date = page.date %}
+  {% assign author = site.authors | where: "id", page.author | first %}
+
+  {% include info.html date = date author = author %}
+
+  {{ content }}
+
+  {% assign url = page.url %}
+  {% assign title = page.title %}
+  {% assign twitter = author.twitter %}
+
+  {% include share.html url = url title = title twitter = twitter %}
+</main>

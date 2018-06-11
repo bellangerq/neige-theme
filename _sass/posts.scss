@@ -1,0 +1,13 @@
+.posts {
+  border-top: 1px solid $color-grey-70;
+  margin-top: 50px;
+
+  article {
+    padding: 25px 0;
+
+    a {
+      border-bottom: 0;
+      text-decoration: none;
+    }
+  }
+}

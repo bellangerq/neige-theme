@@ -1,0 +1,9 @@
+<div class="pagination" role="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
+  {% endif %}
+  <span class="current ">Page {{ paginator.page }} / {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+  {% endif %}
+</div>

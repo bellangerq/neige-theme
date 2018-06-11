@@ -1,0 +1,65 @@
+header {
+  // Horizontal scrolling shadow: https://codepen.io/mrowa44/pen/xRpMYm
+  background:
+    linear-gradient(to right, $color-white 10%, rgba($color-white, 0)),
+    linear-gradient(to right, rgba($color-white, 0), $color-white 90%) 0 100%,
+    linear-gradient(to right, $color-grey, rgba($color-white, 0) 10%),
+    linear-gradient(to left, $color-grey, rgba($color-white, 0) 10%);
+  background-attachment: local, local, scroll, scroll;
+  border-bottom: 1px solid $color-grey-70;
+  overflow: auto;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .blog-icon {
+    border-bottom: 0;
+    margin: 0 20px;
+
+    @media(min-width: 768px) {
+      margin: 0 20px 0 0;
+    }
+
+    img {
+      vertical-align: bottom;
+      min-width: 20px;
+      width: 20px;
+    }
+  }
+
+  nav {
+    align-items: center;
+    display: flex;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        border-color: transparent;
+        color: $color-grey-30;
+        font-size: 14px;
+        display: inline-block;
+        margin: 0 20px;
+
+        a {
+          border-bottom: 0;
+
+          &:hover {
+            border-bottom: 1px solid $color-grey-30;
+          }
+        }
+      }
+    }
+  }
+
+  @media(min-width: 768px) {
+    border-bottom: 0;
+    padding: 50px;
+    position: initial;
+    width: auto;
+  }
+}

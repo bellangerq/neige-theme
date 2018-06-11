@@ -1,0 +1,30 @@
+---
+---
+
+@import 'normalize';
+@import 'vars';
+@import 'elements';
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'layout';
+@import 'posts';
+@import 'info';
+@import 'share';
+@import 'pagination';
+
+body {
+  background: $color-white;
+  color: $color-grey;
+  font-family: $font-sans-serif;
+}
+
+::-moz-selection {
+  background: $color-grey-30;
+  color: $color-white;
+}
+
+::selection {
+  background: $color-grey-30;
+  color: $color-white;
+}

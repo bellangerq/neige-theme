@@ -1,0 +1,36 @@
+<head>
+  <!-- Stylesheet and favicon -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/img/icon.png' | relative_url }}" />
+
+  <!-- Title -->
+  <title>
+    {% if page.title %}
+      {{page.title}}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- Base meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#333333">
+  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+
+  <!-- Facebook meta -->
+  <meta name="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
+  <meta name="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+  <meta name="og:url" content="{{ site.baseUrl }}">
+  <meta name="og:image" content="{{ '/assets/img/og.jpg' | relative_url }}">
+  <meta name="og:site_name" content="{{ site.title }}">
+
+  <!-- Twitter meta -->
+  <meta name="twitter:title" content="{{ site.twitter }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ '/assets/img/og.jpg' | relative_url }}">
+  <meta name="twitter:widgets:theme" content="light">
+  <meta name="twitter:widgets:link-color" content="#333333">
+  <meta name="twitter:widgets:border-color" content="#333333">
+</head>

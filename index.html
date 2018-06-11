@@ -1,0 +1,25 @@
+---
+layout: page
+description: 
+---
+
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+
+      {% assign date = post.date %}
+      {% assign author = site.authors | where: "id", post.author | first %}
+
+      {% include info.html date = date author = author %}
+
+      <p>{{ post.description }}</p>
+    </article>
+  {% endfor %}
+</div>
+
+
+{% include pagination.html %}
