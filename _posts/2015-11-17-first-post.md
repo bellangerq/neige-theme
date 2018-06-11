@@ -1,8 +1,10 @@
 ---
+title: Welcome to Jekyll!
+date: 2015-11-17 00:00:00 Z
 layout: post
-title:  "Welcome to Jekyll!"
-date: 2015-11-17
-description: "We know that first impressions are important, so we've populated your new site with some initial Getting Started posts that will help you get familiar with everything in no time. This is the first one!"
+description: We know that first impressions are important, so we've populated your
+  new site with some initial Getting Started posts that will help you get familiar
+  with everything in no time. This is the first one!
 author: jack
 ---
 
