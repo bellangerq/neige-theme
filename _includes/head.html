@@ -1,7 +1,7 @@
 <head>
   <!-- Stylesheet and favicon -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-  <link rel="icon" type="image/x-icon" href="{{ '/assets/img/icon.png' | relative_url }}" />
+  <link rel="icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
 
   <!-- Title -->
   <title>
@@ -23,13 +23,13 @@
   <meta name="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
   <meta name="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
   <meta name="og:url" content="{{ site.baseUrl }}">
-  <meta name="og:image" content="{{ '/assets/img/og.jpg' | relative_url }}">
+  <meta name="og:image" content="{{ site.og_image | relative_url }}">
   <meta name="og:site_name" content="{{ site.title }}">
 
   <!-- Twitter meta -->
   <meta name="twitter:title" content="{{ site.twitter }}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ '/assets/img/og.jpg' | relative_url }}">
+  <meta name="twitter:image" content="{{ site.og_image | relative_url }}">
   <meta name="twitter:widgets:theme" content="light">
   <meta name="twitter:widgets:link-color" content="#333333">
   <meta name="twitter:widgets:border-color" content="#333333">
