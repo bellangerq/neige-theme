@@ -12,9 +12,6 @@ plugins:
 - jekyll-paginate
 paginate: 6
 paginate_path: "/page:num/"
-icon: "/assets/img/icon.png"
-favicon: "/assets/img/favicon.png"
-og_image: "/assets/img/og.jpg"
 lang: en-US
 description: A minimalist and lightweight Jekyll blog theme
 baseUrl: https://neige-theme.com
