@@ -2,13 +2,18 @@
 
 > Neige is a minimalist and lightweight Jekyll blog theme :snowflake:
 
-- [Feature](#feature)
+![Neige theme preview]()
+
+## Table of content
+
+- [Features](#features)
 - [Installation](#installation)
-- [Customization](#customization)
+- [Configuration](#configuration)
 - [How to](#how-to)
   - [Add new post](#add-new-post)
   - [Add new lage](#add-new-page)
   - [Edit error page](#edit-error-page)
+  - [Update styles](#update-styles)
 - [Development](#development)
 
 ## Features
@@ -17,16 +22,21 @@
 - Minimalist
 - Fast: no JS
 - Accessible
-- Easy Customization
+- Easy configuration
 - Siteleaf ready
 - Meta tags ready
+- Works on any browser
+- Mobile ready
+- Pixel perfect
 
 ## Installation
 
 - Gem based
 - GH pages
 
-## Customization
+## Configuration
+
+Everythings happens in the `_config.yml` file.
 
 - `title`: set the main title (used for meta tags).
 
@@ -70,7 +80,7 @@
 
   Then you can link a blog post to an author with its `id`.
 
-- `footer`: set custom text (or HTML) for the `<footer>` tag content.
+- `footer`: set custom content for the `<footer>` tag.
 
 - `paginate`: define the number of posts displayed on the page.
 
@@ -80,7 +90,7 @@
 
 ### Add new post
 
-To create new blog posts, follow these steps:
+To create a new blog post, follow these steps:
 
 1. Create a `.md` file in the `_posts` folder (example: `YYYY-MM-DD-post.md`).
 2. Add the following properties in the YAML Front Matter:
@@ -109,8 +119,8 @@ To create new static pages, follow these steps:
   ```yml
   ---
   layout: page
-  title: "About"
-  description: "toto"
+  title: "Your page title"
+  description: "Your page description"
   ---
   ```
 
@@ -118,24 +128,32 @@ To create new static pages, follow these steps:
 
 3. Write the content of your page.
 
+### Add meta tags
+
+Meta tags for all kind of page (home, page, post and error) are already configured based on the content you're filling in `_config.yml` for the homepage and in the front-matter for the others.
+
+If you wish to modify the behavior of already existing meta tags settings or to add new ones, head over the `head.html` partial in `_includes` folder.
+
 ### Edit error page
 
-Edit the content of the `404.md` page.
+Simply edit the content of the `404.md` page.
+
+### Update styles
+
+All the `.scss` files are in the `_sass` folder arranged by components (header, pagination, footer...). They are called by the main stylesheet `/assets/css/style.scss`.
+
+Feel free to modify styles the way you want (SASS variables are located in `_sass/vars.scss`).
 
 ## To do
 
 - [ ] Add syntax highlighting
 - [ ] Add Google analytics config
-- Complete documentation
-  - [ ] How to define page meta tags
-  - [ ] Update styles
-- [ ] Main title in posts
-- Write fake posts:
+- Write default posts:
   - [ ] Neige Features
   - [ ] Page elements
   - [ ] Install Neige to your Jekyll website
   - [ ] Make Neige your own
-- Write fake pages:
+- Write default pages:
   - [ ] About page
 
 ## Questions

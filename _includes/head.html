@@ -17,17 +17,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#333333">
-  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
   <!-- Facebook meta -->
-  <meta name="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
-  <meta name="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
-  <meta name="og:url" content="{{ site.baseUrl }}">
+  <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="og:url" content="{{ site.baseUrl }}{{ page.url }}">
   <meta name="og:image" content="{{ site.og_image | relative_url }}">
   <meta name="og:site_name" content="{{ site.title }}">
 
   <!-- Twitter meta -->
-  <meta name="twitter:title" content="{{ site.twitter }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ site.og_image | relative_url }}">
   <meta name="twitter:widgets:theme" content="light">
