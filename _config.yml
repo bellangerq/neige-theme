@@ -19,7 +19,7 @@ lang: en-US
 description: A minimalist and lightweight Jekyll blog theme
 url: https://neige-theme.com
 color: "#333333"
-baseurl: ""
+baseurl: ''
 css: "/assets/css/style.css"
 twitter: "@bellanger_q"
 navigation:
