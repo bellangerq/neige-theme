@@ -1,5 +1,5 @@
 .info {
-  color: $color-grey-70;
+  color: $color-grey-50;
   font-family: $font-sans-serif;
   font-size: 14px;
 
@@ -12,6 +12,11 @@
 
   .info-date,
   .info-author {
+
+    svg {
+      stroke: $color-grey-50;
+    }
+
     @media(min-width: 768px) {
       display: inline-block;
     }
