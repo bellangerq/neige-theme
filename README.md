@@ -50,7 +50,7 @@ Everythings happens in the `_config.yml` file.
 
 - `lang`: set the language of your website. Used as `lang` attribute on the `<html>` tag.
 
-- `baseUrl`: set the root URL of your website (example: `https://my-site.com`).
+- `baseurl`: set the root URL of your website (example: `https://neige-theme.com`).
 
 - `twitter`: the main Twitter account of the website (example: `@twitter`).
 
