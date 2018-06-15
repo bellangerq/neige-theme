@@ -1,14 +1,14 @@
 <header>
   <nav role="navigation">
     <a href="{{ '/' | relative_url }} " title="{{ site.title }}" class="blog-icon">
-      <img src="{{ site.icon | relative_url }}" alt="Logo of {{ site.title }}">
+      <img src="{{ site.url }}{{ site.icon }}" alt="Logo of {{ site.title }}">
     </a>
     {% if site.navigation %}
     <ul>
       {% for link in site.navigation %}
         <li class="item">
           <a
-            href="{{ link.url | relative_url }}"
+            href="{{ link.url }}"
             title="{{ link.title }}"
             target="{% if link.external %}_blank{% endif %}"
             rel="{% if link.external %}noopener{% endif %}"
