@@ -18,21 +18,39 @@
 
 ## Features
 
-- Made for blogging
-- Minimalist
-- Fast: no JS
+- Simple layout
+- Minimalist design
+- Perfectly responsive
 - Accessible
-- Easy configuration
-- Siteleaf ready
-- Meta tags ready
+- Fast and lightweight
 - Works on any browser
-- Mobile ready
-- Pixel perfect
+- Made for blogging
+- Easy configuration
+- [Siteleaf](https://www.siteleaf.com/) ready
 
 ## Installation
 
-- Gem based
-- GH pages
+There are two ways to install this theme:
+- As a standard Jekyll theme.
+- As a remote theme with GitHub pages.
+
+### As a Jekyll theme
+
+1. Add `gem "neige-theme"` to the `Gemfile`.
+2. Run `bundle install`.
+3. Add `theme: neige-theme` to the `_config.yaml` file.
+4. Run `bundle exec jekyll serve` to view the site in `localhost:3000`.
+5. Configure the site's data (see the [Configuration documentation](#configuration)).
+
+### With GitHub pages
+
+1. Add `gem "github-pages", group: :jekyll_plugins` to the `Gemfile`.
+2. Run `bundle install`.
+3. Add `remote_theme: "bellangerq/neige-theme"` in the `_config.yaml` (be sure to remove every other `theme` or `remote_theme` entries).
+4. Run `bundle exec jekyll serve` to view the site in `localhost:3000`.
+5. Configure the site's data (see the [Configuration documentation](#configuration)).
+
+> **Note**: once installed, make sure that pages with pagination enabled are HTML (`.html`) files. As mentioned on the [Jekyll documentation](https://jekyllrb.com/docs/pagination/), the `jekyll-paginate` plugin doesn't work with Markdown (`.md`) files.
 
 ## Configuration
 
@@ -148,19 +166,13 @@ Feel free to modify styles the way you want (SASS variables are located in `_sas
 
 - [ ] Add syntax highlighting
 - [ ] Add Google analytics config
-- Write default posts:
+- [ ] Add content if pagination is not enabled
+- Write default content:
   - [ ] Neige Features
   - [ ] Page elements
   - [ ] Install Neige to your Jekyll website
   - [ ] Make Neige your own
-- Write default pages:
   - [ ] About page
-
-## Questions
-
-- Gems: in `.gemspec` or `Gemfile`?
-- Difference between GH pages remote theme and classic Jekyll theme
-- Versioning configuration (master branch // dev branch)
 
 ## Development
 
