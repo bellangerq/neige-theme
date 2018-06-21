@@ -34,4 +34,6 @@ Here are some ressources if you want to learn more about Neige:
 
 * [Configuration](/2018/06/21/configuration)
 
+* [How to](/2018/06/21/how-to)
+
 * [About me](/2018/06/21/about)
