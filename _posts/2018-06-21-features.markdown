@@ -1,0 +1,15 @@
+---
+title: Theme features
+date: 2018-06-21 12:15:00 Z
+description: 
+author: quentin
+---
+
+- Simple layout
+- Minimalist design
+- Perfectly responsive
+- Accessible
+- Fast and lightweight
+- Works on any browser
+- Made for blogging
+- Easy configuration
