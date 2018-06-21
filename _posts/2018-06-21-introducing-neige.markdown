@@ -1,6 +1,8 @@
 ---
 title: Introducing Neige
 date: 2018-06-21 11:26:00 Z
+description: 'A brief introduction of Neige: a minimalist Jekyll theme made for blogging.'
+author: 
 layout: post
 ---
 
@@ -22,10 +24,10 @@ Neige is a blogging Jekyll theme. It offers the basic blogging features with a m
 
 Here are some ressources if you want to learn more about Neige:
 
-* Features
+* [Features](/2018/06/21/features)
 
-* Installation
+* [Installation](/2018/06/21/installation)
 
-* Configuration
+* [Configuration](/2018/06/21/configuration)
 
-* About me
+* [About me](/2018/06/21/about)
