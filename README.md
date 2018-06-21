@@ -26,7 +26,6 @@
 - Works on any browser
 - Made for blogging
 - Easy configuration
-- [Siteleaf](https://www.siteleaf.com/) ready
 
 ## Installation
 
@@ -50,7 +49,7 @@ There are two ways to install this theme:
 4. Run `bundle exec jekyll serve` to view the site in `localhost:3000`.
 5. Configure the site's data (see the [Configuration documentation](#configuration)).
 
-> **Note**: once installed, make sure that pages with pagination enabled are HTML (`.html`) files. As mentioned on the [Jekyll documentation](https://jekyllrb.com/docs/pagination/), the `jekyll-paginate` plugin doesn't work with Markdown (`.md`) files.
+> **Note**: once installed, make sure that pages with pagination enabled are HTML (`.html`) files. As mentioned in the [Jekyll documentation](https://jekyllrb.com/docs/pagination/), the `jekyll-paginate` plugin doesn't work with Markdown (`.md`) files.
 
 ## Configuration
 
@@ -66,7 +65,7 @@ Everythings happens in the `_config.yml` file.
 
 - `og_image`: set the default Open Graph image (located at `assets/img/og.jpg`).
 
-- `lang`: set the language of your website. Used as `lang` attribute on the `<html>` tag.
+- `lang`: set the language of your website. Used as `lang` attribute on the `<html>` tag (see the [reference of language codes](https://www.w3schools.com/tags/ref_language_codes.asp)).
 
 - `baseurl`: set the root URL of your website (example: `https://neige-theme.com`).
 
@@ -75,11 +74,6 @@ Everythings happens in the `_config.yml` file.
 - `navigation`: set the navigation of your website. Add items with the following properties:
 
   ```yml
-  navigation:
-  - name: About
-    url: "/about"
-    title: About me
-    external: false
   - name: Contact
     url: "/contact"
     title: Contact me
@@ -96,7 +90,7 @@ Everythings happens in the `_config.yml` file.
     twitter: "@bilbo"
   ```
 
-  Then you can link a blog post to an author with its `id`.
+  Then you can link a blog post to an author with its `id` (see the [Add new post part](#add-new-post)).
 
 - `footer`: set custom content for the `<footer>` tag.
 
@@ -164,9 +158,10 @@ Feel free to modify styles the way you want (SASS variables are located in `_sas
 
 ## To do
 
-- [ ] Add syntax highlighting
 - [ ] Add Google analytics config
 - [ ] Add content if pagination is not enabled
+- [ ] Fix blog post title issue
+- [ ] Fix header transparency
 - Write default content:
   - [ ] Neige Features
   - [ ] Page elements

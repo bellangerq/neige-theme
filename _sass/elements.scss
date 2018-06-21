@@ -118,19 +118,33 @@ td {
   padding: 10px;
 }
 
-/* PREFORMATED TEXT */
-/*------------------*/
+/* CODE */
+/*------*/
+
+.highlighter-rouge,
+.highlight {
+  border-radius: 5px;
+}
 
 pre {
-  background: $color-grey-70;
   padding: 20px;
   margin: 25px 0 12.5px;
-  overflow-x: auto;
-  white-space: pre-wrap;
+  overflow-x: scroll;
+
+  code {
+    background: none;
+    padding: 0;
+  }
+
+  *::selection {
+    background: $color-white;
+    color: $color-grey;
+  }
 }
 
 code {
   background: $color-grey-70;
+  border-radius: 5px;
   line-height: 1.4em;
   padding: 2px 5px;
 }
