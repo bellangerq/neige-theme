@@ -10,12 +10,13 @@ collections:
     output: true
 plugins:
 - jekyll-paginate
+highlighter: rouge
 paginate: 6
 paginate_path: "/page:num/"
 icon: "/assets/img/icon.png"
 favicon: "/assets/img/favicon.png"
 og_image: "/assets/img/og.jpg"
-lang: en-US
+lang: en
 description: A minimalist and lightweight Jekyll blog theme
 url: https://neige-theme.com
 color: "#333333"
