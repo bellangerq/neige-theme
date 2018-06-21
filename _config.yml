@@ -11,7 +11,7 @@ collections:
 plugins:
 - jekyll-paginate
 highlighter: rouge
-paginate: 6
+paginate: 4
 paginate_path: "/page:num/"
 icon: "/assets/img/icon.png"
 favicon: "/assets/img/favicon.png"
