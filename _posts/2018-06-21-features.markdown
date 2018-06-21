@@ -1,5 +1,5 @@
 ---
-title: Neige's features
+title: Theme features
 date: 2018-06-21 12:15:00 Z
 description: 
 author: quentin
