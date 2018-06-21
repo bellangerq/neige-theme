@@ -20,7 +20,7 @@ lang: en
 description: A minimalist and lightweight Jekyll blog theme
 url: https://neige-theme.com
 color: "#333333"
-baseurl: ''
+baseurl: 
 css: "/assets/css/style.css"
 twitter: "@bellanger_q"
 navigation:
@@ -41,12 +41,9 @@ navigation:
   title: View source
   external: true
 authors:
-- id: bilbo
-  name: Bilbo Baggins
-  twitter: "@bilbo"
-- id: jack
-  name: Jack Sparrow
-  twitter: "@jack"
+- id: quentin
+  name: Quentin Bellanger
+  twitter: "@bellanger_q"
 footer: <a href="https://neige-theme.com" target="_blank" rel="noopener">Neige</a>
   theme by <a href="https://quentin-bellanger.com" target="_blank" rel="noopener">Quentin</a>
   | Published with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>
