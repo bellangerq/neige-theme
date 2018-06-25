@@ -1,9 +1,9 @@
 ---
 title: Configuration
 date: 2018-06-21 12:40:00 Z
-description: In in blandit diam. Nulla odio neque, tempus sed felis ac, cursus eleifend
-  nisi. Proin metus massa, maximus nec aliquam sed, semper sit amet justo. Sed in
-  convallis purus.
+description: Once Neige is installed on your Jekyll website, learn how to configure
+  it to make it yours. This part is made very simple as everything is happening in
+  only one configuration file.
 author: quentin
 ---
 
