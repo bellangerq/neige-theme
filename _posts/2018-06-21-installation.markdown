@@ -1,9 +1,8 @@
 ---
 title: Installation
 date: 2018-06-21 12:39:00 Z
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus
-  lectus ac imperdiet finibus. Mauris bibendum efficitur nulla ut pulvinar. Proin
-  egestas aliquam varius. Donec vitae rutrum augue.
+description: 'Steps to install Neige to your existing Jekyll website. You can choose
+  between two ways: as a standard Jekyll theme or thanks to the GitHub pages integration.'
 author: quentin
 ---
 
