@@ -7,14 +7,14 @@ description: In in blandit diam. Nulla odio neque, tempus sed felis ac, cursus e
 author: quentin
 ---
 
-\## Add new post
+## Add new post
 
 To create a new blog post, follow these steps:
 
-1\. Create a \`.md\` file in the \`_posts\` folder (example: \`YYYY-MM-DD-post.md\`).
-2\. Add the following properties in the YAML Front Matter:
+1. Create a `.md` file in the `_posts` folder (example: `YYYY-MM-DD-post.md`).
+2. Add the following properties in the YAML Front Matter:
 
-  \`\`\`yml
+  ```yml
   ---
   layout: post
   date: YYYY-MM-DD
@@ -22,43 +22,43 @@ To create a new blog post, follow these steps:
   description: "Your post description"
   author: jack
   ---
-  \`\`\`
+  ```
 
-  > The \`title\` and \`description\` are used on the post but also for the meta tags. The \`author\` must be a existing author \`id\` in your \`_config.yml\` file.
+  > The `title` and `description` are used on the post but also for the meta tags. The `author` must be a existing author `id` in your `_config.yml` file.
 
-3\. Write with blog post content.
+3. Write with blog post content.
 
-\## Add new page
+### Add new page
 
 To create new static pages, follow these steps:
 
-1\. Create a \`.md\` file at the root of your project (example: \`page.md\`).
-2\. Add the following properties in the YAML Front Matter:
+1. Create a `.md` file at the root of your project (example: `page.md`).
+2. Add the following properties in the YAML Front Matter:
 
-  \`\`\`yml
+  ```yml
   ---
   layout: page
   title: "Your page title"
   description: "Your page description"
   ---
-  \`\`\`
+  ```
 
-  > The \`title\` and \`description\` are used on the page but also for the meta tags.
+  > The `title` and `description` are used on the page but also for the meta tags.
 
-3\. Write the content of your page.
+3. Write the content of your page.
 
-\## Add meta tags
+### Add meta tags
 
-Meta tags for all kind of page (home, page, post and error) are already configured based on the content you're filling in \`_config.yml\` for the homepage and in the front-matter for the others.
+Meta tags for all kind of page (home, page, post and error) are already configured based on the content you're filling in `_config.yml` for the homepage and in the front-matter for the others.
 
-If you wish to modify the behavior of already existing meta tags settings or to add new ones, head over the \`head.html\` partial in \`_includes\` folder.
+If you wish to modify the behavior of already existing meta tags settings or to add new ones, head over the `head.html` partial in `_includes` folder.
 
-\## Edit error page
+### Edit error page
 
-Simply edit the content of the \`404.md\` page.
+Simply edit the content of the `404.md` page.
 
-\## Update styles
+### Update styles
 
-All the \`.scss\` files are in the \`_sass\` folder arranged by components (header, pagination, footer...). They are called by the main stylesheet \`/assets/css/style.scss\`.
+All the `.scss` files are in the `_sass` folder arranged by components (header, pagination, footer...). They are called by the main stylesheet `/assets/css/style.scss`.
 
-Feel free to modify styles the way you want (SASS variables are located in \`_sass/vars.scss\`).
+Feel free to modify styles the way you want (SASS variables are located in `_sass/vars.scss`).
