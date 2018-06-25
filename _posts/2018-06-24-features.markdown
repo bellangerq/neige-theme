@@ -16,4 +16,4 @@ These are the features that make Neige an awesome Jekyll blogging theme:
 
 * **Made for blogging**: with authors, social share buttons and pagination, Neige is made for bloggers and writers.
 
-* **Easy configuration**: Neige can be set up in a flash. Follow the [configuration instructions](/2018/06/21/configuration) and you're done in few minutes.
+* **Easy configuration**: Neige can be set up in a flash. Follow the [configuration instructions](/2018/06/22/configuration) and you're done in few minutes.
