@@ -6,7 +6,7 @@ description: 'Steps to install Neige to your existing Jekyll website. You can ch
 author: quentin
 ---
 
-There are two ways to install this theme:
+There are two ways to install Neige on your Jekyll website:
 
 * As a standard Jekyll theme.
 
@@ -22,7 +22,7 @@ There are two ways to install this theme:
 
 4. Run `bundle exec jekyll serve` to view the site in `localhost:3000`.
 
-5. Configure the site's data (see the [Configuration documentation](/2018/06/21/configuration)).
+5. Configure the site's data (see the [Configuration documentation](/2018/06/22/configuration)).
 
 ## With GitHub pages
 
@@ -34,7 +34,7 @@ There are two ways to install this theme:
 
 4. Run `bundle exec jekyll serve` to view the site in `localhost:3000`.
 
-5. Configure the site's data (see the [Configuration documentation](/2018/06/21/configuration)).
+5. Configure the site's data (see the [Configuration documentation](/2018/06/22/configuration)).
 
 > Note: once installed, make sure that pages with pagination enabled are HTML (`.html`) files. As mentioned in the Jekyll documentation, the **jekyll-paginate** plugin doesn't work with Markdown (`.md`) files.
 
