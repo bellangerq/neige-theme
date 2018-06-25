@@ -1,11 +1,12 @@
 ---
 title: How to
 date: 2018-06-21 12:35:00 Z
-description: In in blandit diam. Nulla odio neque, tempus sed felis ac, cursus eleifend
-  nisi. Proin metus massa, maximus nec aliquam sed, semper sit amet justo. Sed in
-  convallis purus.
+description: A simple overview on how to make the more common actions once you've
+  installed Neige on your Jekyll website.
 author: quentin
 ---
+
+A simple overview on how to make the more common actions once you've installed Neige on your Jekyll website.
 
 ## Add new post
 
