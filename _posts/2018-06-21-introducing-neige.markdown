@@ -8,7 +8,7 @@ layout: post
 
 Hey there, **welcome on Neige**! I'm Quentin, the developer behind Neige. Let me quickly introduce you to this brand new Jekyll theme.
 
-![og.jpg](/uploads/og.jpg)
+![og.jpg](/uploads/og.jpg "Neige theme")
 
 ## Minimalist touch
 
