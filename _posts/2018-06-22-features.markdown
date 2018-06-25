@@ -1,6 +1,6 @@
 ---
 title: Theme features
-date: 2018-06-21 12:15:00 Z
+date: 2018-06-22 12:15:00 Z
 description: 
 author: quentin
 ---
