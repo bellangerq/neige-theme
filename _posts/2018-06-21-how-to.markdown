@@ -15,13 +15,13 @@ To create a new blog post, follow these steps:
 
 2. Add the following properties in the YAML Front Matter:
 
-   ---
-   layout: post
-   date: YYYY-MM-DD
-   title: "Your post title"
-   description: "Your post description"
-   author: author
-   ---
+      ---
+      layout: post
+      date: YYYY-MM-DD
+      title: "Your post title"
+      description: "Your post description"
+      author: author
+      ---
 
    > The `title` and `description` are used on the post but also for the meta tags. The `author` must be a existing author `id` in your `_config.yml` file.
 
