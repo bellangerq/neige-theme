@@ -1,6 +1,6 @@
 ---
 title: Installation
-date: 2018-06-21 12:39:00 Z
+date: 2018-06-23 12:39:00 Z
 description: 'Steps to install Neige to your existing Jekyll website. You can choose
   between two ways: as a standard Jekyll theme or thanks to the GitHub pages integration.'
 author: quentin
