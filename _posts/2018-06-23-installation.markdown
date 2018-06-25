@@ -2,7 +2,7 @@
 title: Installation
 date: 2018-06-23 12:39:00 Z
 description: 'Steps to install Neige to your existing Jekyll website. You can choose
-  between two ways: as a standard Jekyll theme or thanks to the GitHub pages integration.'
+  between two ways: as a standard Jekyll theme or thanks to the GitHub Pages integration.'
 author: quentin
 ---
 
@@ -24,7 +24,7 @@ There are two ways to install Neige on your Jekyll website:
 
 5. Configure the site's data (see the [Configuration documentation](/2018/06/22/configuration)).
 
-## With GitHub pages
+## With GitHub Pages
 
 1. Add `gem "github-pages", group: :jekyll_plugins` to the Gemfile.
 
