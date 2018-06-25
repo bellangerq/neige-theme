@@ -7,12 +7,12 @@ author: quentin
 
 These are the features that make Neige an awesome Jekyll blogging theme:
 
-- Simple and minimalist: less is more. Focus on what's important: your content. The design of Neige is very pure and clean so it fits with every one's website and is not a distraction for reading.
+* **Simple and minimalist**: less is more. Focus on what's important: your content. The design of Neige is very pure and clean so it fits with every one's website and is not a distraction for reading.
 
-- Responsive and accessible: whatever is your device, from a 4K TV to an iPhone 5, Neige will perfectly render on your screen. It's also accessible and usable by everyone.
+* **Responsive and accessible**: whatever is your device, from a 4K TV to an iPhone 5, Neige will perfectly render on your screen. It's also accessible and usable by everyone.
 
-- Fast and lightweight: there is no JavaScript in this Jekyll theme. It means that it's ultra light and therefore, fast. It helps for slow connection and gives you a little SEO boost.
+* **Fast and lightweight**: there is no JavaScript in this Jekyll theme. It means that it's ultra light and therefore, fast. It helps for slow connection and gives you a little SEO boost.
 
-- Made for blogging: with authors, social share buttons and pagination, Neige is made for bloggers and writers.
+* **Made for blogging**: with authors, social share buttons and pagination, Neige is made for bloggers and writers.
 
-- Easy configuration: Neige can be set up in a flash. Follow the configuration instructions and you're done in few minutes.
+* **Easy configuration**: Neige can be set up in a flash. Follow the configuration instructions and you're done in few minutes.
