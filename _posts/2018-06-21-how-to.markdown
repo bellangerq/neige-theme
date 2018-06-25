@@ -15,7 +15,7 @@ To create a new blog post, follow these steps:
 1. Create a `.md` file in the `_posts` folder (example: `YYYY-MM-DD-post.md`).
 
 2. Add the following properties in the YAML Front Matter:
-      ```
+      ```yml
       ---
       layout: post
       date: YYYY-MM-DD
