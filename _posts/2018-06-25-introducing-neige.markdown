@@ -14,7 +14,7 @@ Hey there, **welcome on Neige**! I'm Quentin, the developer behind Neige. Let me
 
 As you see, Neige has a very minimalist design. The aspect is kept clean and pure because I built it with simplicity in mind. By creating something like this, I make sure every part is polished and well-finished for the best experience.
 
-You can take a look at how every element looks with the Neige theme by reading the [style guide post](/2018/06/21/style-guide).
+You can take a look at how every element looks with the Neige theme by reading the [style guide post](/2018/06/20/style-guide).
 
 By the way, the name "Neige" comes from French which means "Snow" and clearly identifies to something pure and clean.
 
