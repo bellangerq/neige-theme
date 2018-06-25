@@ -33,7 +33,7 @@ navigation:
   title: Email me
   external: false
 - name: Twitter
-  url: https://twitter.com
+  url: https://twitter.com/bellanger_q
   title: Follow updates
   external: true
 - name: GitHub
