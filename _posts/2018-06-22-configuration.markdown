@@ -1,6 +1,6 @@
 ---
 title: Configuration
-date: 2018-06-21 12:40:00 Z
+date: 2018-06-22 12:40:00 Z
 description: Once Neige is installed on your Jekyll website, learn how to configure
   it to make it yours. This part is made very simple as everything is happening in
   only one configuration file.

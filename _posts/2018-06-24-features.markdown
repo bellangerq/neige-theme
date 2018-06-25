@@ -1,6 +1,6 @@
 ---
 title: Theme features
-date: 2018-06-22 12:15:00 Z
+date: 2018-06-24 12:15:00 Z
 description: As well as a neat design and an easy configuration, Neige empowers bloggers
   with handy features such as pagination, authors management and social share buttons.
 author: quentin
