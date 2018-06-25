@@ -1,6 +1,6 @@
 ---
 title: Introducing Neige
-date: 2018-06-21 11:26:00 Z
+date: 2018-06-25 11:26:00 Z
 description: 'A brief introduction of Neige: a minimalist Jekyll theme made for blogging.'
 author: quentin
 layout: post
