@@ -36,12 +36,13 @@ To create new static pages, follow these steps:
 1. Create a `.md` file at the root of your project (example: `page.md`).
 
 2. Add the following properties in the YAML Front Matter:
-
+      ```yml
       ---
       layout: page
       title: "Your page title"
       description: "Your page description"
       ---
+      ```
 
    > The `title` and `description` are used on the page but also for the meta tags.
 
