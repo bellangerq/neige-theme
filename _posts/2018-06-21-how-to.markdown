@@ -15,7 +15,7 @@ To create a new blog post, follow these steps:
 1. Create a `.md` file in the `_posts` folder (example: `YYYY-MM-DD-post.md`).
 
 2. Add the following properties in the YAML Front Matter:
-
+      ```
       ---
       layout: post
       date: YYYY-MM-DD
@@ -23,6 +23,7 @@ To create a new blog post, follow these steps:
       description: "Your post description"
       author: author
       ---
+      ```
 
    > The `title` and `description` are used on the post but also for the meta tags. The `author` must be a existing author `id` in your `_config.yml` file.
 
