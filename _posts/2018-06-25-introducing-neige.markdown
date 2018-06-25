@@ -30,14 +30,14 @@ You basically just have to follow the installation instructions and to fill the 
 
 Here are some ressources if you want to learn more about Neige:
 
-* [Features](/2018/06/21/features)
+* [Features](/2018/06/24/features)
 
-* [Installation](/2018/06/21/installation)
+* [Installation](/2018/06/23/installation)
 
-* [Configuration](/2018/06/21/configuration)
+* [Configuration](/2018/06/22/configuration)
 
 * [How to](/2018/06/21/how-to)
 
-* [About me](/2018/06/21/about)
+* [Style guide](/2018/06/20/style-guide)
 
-* [Style guide](/2018/06/21/style-guide)
+* [About me](/2018/06/21/about)
